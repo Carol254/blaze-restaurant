@@ -7,6 +7,7 @@ import { HomeComponent } from './dashboard/home/home.component';
 import { HeaderComponent } from './dashboard/header/header.component';
 import { AboutUsComponent } from './dashboard/about-us/about-us.component';
 import { FeaturesComponent } from './dashboard/features/features.component';
+import { TheMenuComponent } from './dashboard/the-menu/the-menu.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FeaturesComponent } from './dashboard/features/features.component';
     HomeComponent,
     HeaderComponent,
     AboutUsComponent,
-    FeaturesComponent
+    FeaturesComponent,
+    TheMenuComponent
   ],
   imports: [
     BrowserModule
